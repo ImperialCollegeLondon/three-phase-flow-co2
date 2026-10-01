@@ -1,0 +1,14 @@
+-- Generated [
+-- Format      : Eclipse keywords (grid properties) (ASCII)
+-- Exported by : Petrel 2024.4.0 Schlumberger
+-- User name   : oa2414
+-- Date        : Sunday, November 02 2025 22:20:18
+-- Project     : Fractional_flow.pet
+-- Grid        : 600_grids
+-- Unit system : Eclipse-Metric
+-- Generated ]
+
+PERMZ                                  -- Generated : Petrel
+-- Property name in Petrel : permZ
+  600*10 /
+

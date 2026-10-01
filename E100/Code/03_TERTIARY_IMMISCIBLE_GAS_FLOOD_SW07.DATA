@@ -1,0 +1,110 @@
+-- Generated [
+-- Format      : Eclipse keywords (ASCII)
+-- Exported by : Petrel 2024.4.0 Schlumberger
+-- User name   : oa2414
+-- Date        : Sunday, November 02 2025 22:20:18
+-- Project     : Fractional_flow.pet
+-- Generated ]
+
+RUNSPEC
+
+ENDSCALE                               -- Generated : Petrel
+  /
+
+MISCIBLE
+  /
+
+TITLE                                  -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07'
+
+WELLDIMS                               -- Generated : Petrel
+  2 1 4 3 /
+
+START                                  -- Generated : Petrel
+  1 JAN 2025 /
+
+WATER                                  -- Generated : Petrel
+
+OIL                                    -- Generated : Petrel
+
+GAS                                    -- Generated : Petrel
+
+PETOPTS                                -- Generated : Petrel
+INITNNC /
+
+MONITOR                                -- Generated : Petrel
+
+MULTOUT                                -- Generated : Petrel
+
+METRIC                                 -- Generated : Petrel
+
+DIMENS                                 -- Generated : Petrel
+  600 1 1 /
+
+TABDIMS
+  2* 90 9* 1/
+
+GRID
+
+INCLUDE                                -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07_GRID.INC' /
+
+NOECHO                                 -- Generated : Petrel
+
+INCLUDE                                -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07_GRID.GRDECL' /
+
+INCLUDE                                -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07_PROP_PERMX.GRDECL' /
+
+INCLUDE                                -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07_PROP_PERMY.GRDECL' /
+
+INCLUDE                                -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07_PROP_PERMZ.GRDECL' /
+
+INCLUDE                                -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07_PROP_PORO.GRDECL' /
+
+ECHO                                   -- Generated : Petrel
+
+EDIT
+
+PROPS
+
+INCLUDE                                -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07_PROPS.INC' /
+
+REGIONS
+
+NOECHO                                 -- Generated : Petrel
+
+INCLUDE                                -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07_PROP_SATNUM.GRDECL' /
+
+INCLUDE                                -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07_PROP_PVTNUM.GRDECL' /
+
+INCLUDE                                -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07_PROP_ROCKNUM.GRDECL' /
+
+INCLUDE                                -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07_PROP_EQLNUM.GRDECL' /
+
+ECHO                                   -- Generated : Petrel
+
+SOLUTION
+
+INCLUDE                                -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07_SOL.INC' /
+
+SUMMARY
+
+INCLUDE                                -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07_SUM.INC' /
+
+SCHEDULE
+
+INCLUDE                                -- Generated : Petrel
+'03_TERTIARY_IMMISCIBLE_GAS_FLOOD_SW07_SCH.INC' /
+
