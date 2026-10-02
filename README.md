@@ -24,12 +24,12 @@ Both the code and the corresponding results are provided for each of the three c
 ### 2. Finite-difference simulation — Python
 
 - Code: Python code for solving one-dimensional three-phase flow using a finite-difference method.
-- Results: Corresponding saturation profiles, cumulative oil recovery factor (Rf), and the amount of CO₂ stored.
+- Results: Corresponding saturation profiles, incremental oil recovery factor (Rf), and the amount of CO₂ stored.
 
 ### 3. Reservoir simulation — ECLIPSE 100 (E100)
 
 - Code: E100 simulation input for modelling one-dimensional three-phase flow.
-- Results: Corresponding saturation profiles in .PRT file, cumulative oil recovery factor (Rf), and the amount of CO₂ stored, used for comparison with the finite-difference results.
+- Results: Corresponding saturation profiles in .PRT file, incremental oil recovery factor (Rf), and the amount of CO₂ stored, used for comparison with the finite-difference results.
 
 ## Software requirements
 
