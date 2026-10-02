@@ -29,7 +29,7 @@ Both the code and the corresponding results are provided for each of the three c
 ### 3. Reservoir simulation — ECLIPSE 100 (E100)
 
 - Code: E100 simulation input for modelling one-dimensional three-phase flow.
-- Results: Corresponding saturation profiles in .PRT file, incremental oil recovery factor (Rf), and the amount of CO₂ stored, used for comparison with the finite-difference results.
+- Results: Corresponding saturation profiles in .PRT file (time step: 143.00 days, 24-May-2025), incremental oil recovery factor (Rf), and the amount of CO₂ stored, used for comparison with the finite-difference results.
 
 ## Software requirements
 
